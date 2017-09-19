@@ -107,7 +107,7 @@ nav a {
   text-align: center;
 }
 
-.illustrated {
+.illustrated h1 {
   text-align: left;
 }
 
@@ -116,6 +116,14 @@ nav a {
   color: black;
 }
 
+.other-stories {
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.other-stories .story {
+  width: 300px;
+}
 
 /* -------- Headline BG Photos -------- */
 
