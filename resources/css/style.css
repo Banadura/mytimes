@@ -8,6 +8,8 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
+  z-index: 5;
 }
 
 a {
@@ -38,4 +40,33 @@ nav {
 nav a {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  padding-top: 115px;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.leadstory .imgheadline {
+  background-image: url("resources/images/img-story-main.png")
 }
